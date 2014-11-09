@@ -4,8 +4,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.export('module'); // XXX
-  api.export('cMinisat'); // XXX
+  api.export('Minisat');
+  api.use('underscore');
   api.add_files(['setup.js', 'minisat.js', 'api.js']);
 });
 

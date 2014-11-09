@@ -1,4 +1,4 @@
 
 Tinytest.add('minisat - basic', function (test) {
-  test.isTrue(cMinisat._solve_string);
+  test.equal(Minisat.solve(), 'foo');
 });
